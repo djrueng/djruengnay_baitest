@@ -1,0 +1,56 @@
+.WhyChooseUs {
+    .heading-title {
+        margin-top: 70px;
+        text-align: center;
+        h2 {
+            font-family: Poppins, Helvetica, Arial, sans-serif;
+            font-weight: 700;
+            font-size: 36px;
+            text-transform: none;
+            letter-spacing: 0px;
+        }
+        p {
+            font-weight: 500;
+            letter-spacing: 0px;
+            text-transform: none;
+            color: #8D9199;
+            font-size: 15px;
+        }
+    }
+    padding: 0 90px;
+    .WhyChooseUs-content{
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 0;
+        .img-content {
+            width: 30.66%;
+            text-align: center;
+            .item-img {
+                width: 150px;
+                margin: auto;
+                a {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            .item-text {
+                .heading-h4 {
+                    text-align: center;
+                    h4 {
+                        font-size: 20px;
+                        font-weight: 700;
+                        letter-spacing: 0px;
+                        color: #000000;
+                    }
+                }
+                .item-content {
+                    p {
+                        padding-top: 0.7em;
+                        padding-bottom: 1.3em;
+                    }
+                }
+            }
+        }
+    }
+}

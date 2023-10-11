@@ -1,0 +1,87 @@
+.ArticlesTips {
+    padding: 0 90px;
+    .main-content {
+        .heading-title {
+            margin-top: 70px;
+            text-align: center;
+            h2 {
+                font-family: Poppins, Helvetica, Arial, sans-serif;
+                font-weight: 700;
+                font-size: 36px;
+                text-transform: none;
+                letter-spacing: 0px;
+            }
+            p {
+                font-weight: 500;
+                letter-spacing: 0px;
+                text-transform: none;
+                color: #8D9199;
+                font-size: 15px;
+            }
+        }
+        .ArticlesTips-content {
+            display: flex;
+            justify-content: space-between;
+            margin: 50px 0;
+            .content-img {
+                border: 1px solid #dce0e0;
+                border-radius: 5px;
+                -webkit-transition-duration: 0.2s;
+                -moz-transition-duration: 0.2s;
+                -o-transition-duration: 0.2s;
+                transition-duration: 0.2s;
+                width: 31.66%;
+                .item-img {
+                    margin-bottom: 20px;
+                    a {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+                .item-content {
+                    padding: 0 30px 30px 30px;
+                    .post-detail {
+                        span {
+                            margin: 10px 0;
+                            a {
+                                text-decoration: none;
+                                color: #000000;
+                                font-family: Poppins, Helvetica, Arial, sans-serif;
+                                text-transform: uppercase;
+                                font-size: 13px;
+                            }
+                        }
+                        h6 {
+                            font-size: 20px;
+                            color: #000000;
+                            margin-top: 5px;
+                        }
+                    }
+                    p {
+                        padding-top: 0.7em;
+                        padding-bottom: 1.3em;
+                        color: #767676;
+                    }
+                    .redmore {
+                        a {
+                            text-decoration: none;
+                            color: #767676;
+                            text-transform: capitalize;
+                            svg {
+                                color: #767676;
+                                font-size: 12px;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+            .content-img:hover {
+                transform: translateY(-4px);
+                box-shadow: 0 22px 40px rgba(0,0,0,.15);
+                transition-duration: 0.2s;
+            }
+        }
+    }
+}
